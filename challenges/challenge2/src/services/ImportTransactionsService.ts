@@ -2,7 +2,6 @@ import { getRepository, In } from 'typeorm';
 import csvParse from 'csv-parse';
 import fs from 'fs';
 
-import { json } from 'express';
 import Transaction from '../models/Transaction';
 import Category from '../models/Category';
 
